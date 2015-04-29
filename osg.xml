@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!-- Tutorial_08_Complete_Tutorial_Code_Example (XML, HTML, CSS, JavaScript) -->
+<Module>
+	<ModulePrefs title="CPM_OSG_Demo" height="250">
+    </ModulePrefs>
+	<Content type="html">
+		<![CDATA[
+			<!-- Add interactive functionality via Javascript -->
+			<script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery/jquery-1.6.2.min.js"></script>
+			<script src="osgDemo.js"></script>
+			<!-- Add some basic HTML structure to our gadget-->
+			<div id="app">
+				<div id="header"><h2>OpenSocial Tutorial Tool</h2></div>
+				<div id="body">
+				
+				<p id="demo"></p>
+				
+				</div>
+				<div id="footer"> </div>
+			</div>
+			
+			<!-- Add CSS styling to set properties for app, header, body and footer elements. -->
+			<link rel="stylesheet" type="text/css" href="osgDemo.css">
+		]]>
+	</Content>
